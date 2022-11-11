@@ -5,7 +5,7 @@ Paper Title: CCC-wav2vec 2.0: Clustering aided Cross Contrastive Self-Supervised
 ccc-wav2vec 2.0 is a pre-training mechanism which uses clustering and an augmentation-based cross-contrastive loss as its self-supervised objective. Through the clustering module, we scale down the influence of those negative examples that are highly similar to the positive. The Cross-Contrastive loss is computed between the encoder output of the original sample and the quantizer output of its augmentation and vice-versa, bringing robustness to the pre-training strategy.
 
 <p align="center">
-  <img src="docs/CCC.png" width="700">
+  <img src="docs/CCC-Final.drawio.png" width="700">
 </p>
 
 Primary Contributions:
@@ -15,6 +15,8 @@ Primary Contributions:
 
 ## Models
 Will be made available soon...
+
+* Pre-training and fine-tuning procedures can be found [here](https://github.com/Speech-Lab-IITM/CCC-wav2vec-2.0/examples/wav2vec).
 
 ## Requirements and Installation
 
