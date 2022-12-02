@@ -17,7 +17,7 @@ Primary Contributions:
 
 The WERs specified are without the use of any language model.
 
-Model | Pre-training data | Fine-tuning data | Model | WER (test-clean \| test-other)
+Model | Pre-training data | Fine-tuning data | Model Links | WER (test-clean \| test-other)
 |---|---|---|---|---
 wav2vec 2.0 Base | LibriSpeech-360h | No fine-tuning | [fairseq](https://drive.google.com/file/d/1Z4GGtDkaU4VCio2eyYVe40914tpjWI4V/view?usp=share_link)  [huggingface](https://huggingface.co/vasista22/wav2vec2-360h-base) | ---
 wav2vec 2.0 Base | LibriSpeech-360h | LibriSpeech-100h | [fairseq](https://drive.google.com/file/d/1N5-sJCp6jO_0lkutbSwZx9HT1_M5Lg2b/view?usp=share_link)  [huggingface](https://huggingface.co/vasista22/wav2vec2-360h-base-ft-100h) | 12.8 \| 31.7
