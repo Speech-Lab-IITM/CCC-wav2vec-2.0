@@ -17,14 +17,14 @@ Primary Contributions:
 
 The WERs specified are without the use of any language model.
 
-Model | Pre-training data | Fine-tuning data | Fairseq Model | Hugging Face Model | WER (test-clean \| test-other)
+Model | Pre-training data | Fine-tuning data | Model | WER (test-clean \| test-other)
 |---|---|---|---|---|---
-wav2vec 2.0 Base | LibriSpeech-360h | No fine-tuning | [download](https://drive.google.com/file/d/1Z4GGtDkaU4VCio2eyYVe40914tpjWI4V/view?usp=share_link) | [download](https://huggingface.co/vasista22/wav2vec2-360h-base) | ---
-wav2vec 2.0 Base | LibriSpeech-360h | LibriSpeech-100h | [download](https://drive.google.com/file/d/1N5-sJCp6jO_0lkutbSwZx9HT1_M5Lg2b/view?usp=share_link) | [download](https://huggingface.co/vasista22/wav2vec2-360h-base-ft-100h) | 12.8 \| 31.7
-ccc-wav2vec 2.0 Base | LibriSpeech-360h | No fine-tuning | [download](https://drive.google.com/file/d/1iUI75gBFmxz7QnXNnnEY-1_fAsi0noKs/view?usp=share_link) | [download](https://huggingface.co/vasista22/ccc-wav2vec2-360h-base) | ---
-ccc-wav2vec 2.0 Base | LibriSpeech-360h | LibriSpeech-100h | [download](https://drive.google.com/file/d/16le9dRhGNKJAAW4JFjjPSbw26_EobZee/view?usp=share_link) | [download](https://huggingface.co/vasista22/ccc-wav2vec2-360h-base-ft-100h) | 10.8 \| 27.7
-ccc-wav2vec 2.0 Base | LibriSpeech-960h | No fine-tuning | [download](https://drive.google.com/file/d/1rs2eXck0cX1DJE3WoGnsPimMs0nYmQc-/view?usp=share_link) | [download](https://huggingface.co/vasista22/ccc-wav2vec2-base) | ---
-ccc-wav2vec 2.0 Base | LibriSpeech-960h | LibriSpeech-100h | [download](https://drive.google.com/file/d/18TOKavkfnbXkztnMTXbww6YXXAtkPVGc/view?usp=share_link) | [download](https://huggingface.co/vasista22/ccc-wav2vec2-base-100h) | 5.5 \| 12.4
+wav2vec 2.0 Base | LibriSpeech-360h | No fine-tuning | [fairseq](https://drive.google.com/file/d/1Z4GGtDkaU4VCio2eyYVe40914tpjWI4V/view?usp=share_link)  [huggingface](https://huggingface.co/vasista22/wav2vec2-360h-base) | ---
+wav2vec 2.0 Base | LibriSpeech-360h | LibriSpeech-100h | [fairseq](https://drive.google.com/file/d/1N5-sJCp6jO_0lkutbSwZx9HT1_M5Lg2b/view?usp=share_link)  [huggingface](https://huggingface.co/vasista22/wav2vec2-360h-base-ft-100h) | 12.8 \| 31.7
+ccc-wav2vec 2.0 Base | LibriSpeech-360h | No fine-tuning | [fairseq](https://drive.google.com/file/d/1iUI75gBFmxz7QnXNnnEY-1_fAsi0noKs/view?usp=share_link)  [huggingface](https://huggingface.co/vasista22/ccc-wav2vec2-360h-base) | ---
+ccc-wav2vec 2.0 Base | LibriSpeech-360h | LibriSpeech-100h | [fairseq](https://drive.google.com/file/d/16le9dRhGNKJAAW4JFjjPSbw26_EobZee/view?usp=share_link)  [huggingface](https://huggingface.co/vasista22/ccc-wav2vec2-360h-base-ft-100h) | 10.8 \| 27.7
+ccc-wav2vec 2.0 Base | LibriSpeech-960h | No fine-tuning | [fairseq](https://drive.google.com/file/d/1rs2eXck0cX1DJE3WoGnsPimMs0nYmQc-/view?usp=share_link)  [huggingface](https://huggingface.co/vasista22/ccc-wav2vec2-base) | ---
+ccc-wav2vec 2.0 Base | LibriSpeech-960h | LibriSpeech-100h | [fairseq](https://drive.google.com/file/d/18TOKavkfnbXkztnMTXbww6YXXAtkPVGc/view?usp=share_link)  [huggingface](https://huggingface.co/vasista22/ccc-wav2vec2-base-100h) | 5.5 \| 12.4
 
 * Pre-training and fine-tuning procedures can be found [here](https://github.com/Speech-Lab-IITM/CCC-wav2vec-2.0/examples/wav2vec).
 
