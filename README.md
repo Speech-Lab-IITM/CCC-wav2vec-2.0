@@ -13,6 +13,14 @@ Primary Contributions:
 * We demonstrate the usefulness of a clustering module to segregate the negative examples and thereby control the effect of the weak non-informative negative examples in the contrastive learning task.
 * Combining the above two modules leads to the development of ccc-wav2vec 2.0, a robust pre-training approach that consistently outperforms wav2vec 2.0 in tasks such as ASR, Domain Adaptation, and zero-shot decoding.
 
+## SUPERB Benchmark
+
+The ccc-wav2vec 2.0 BASE model pre-trained on LibriSpeech-960h has been evaluated on the multiple downstream tasks over the [SUPERB benchmark](https://superbbenchmark.org/leaderboard?subset=Public+Set). The proposed method comprehensively outperforms the baseline wav2vec 2.0 BASE model over the array of downstream tasks presented over SUPERB.
+
+<p align="center">
+  <img src="docs/ccc_superb.jpg" width="700">
+</p>
+
 ## Models
 
 The WERs specified are without the use of any language model.
@@ -25,6 +33,7 @@ ccc-wav2vec 2.0 Base | LibriSpeech-360h | No fine-tuning | [fairseq](https://dri
 ccc-wav2vec 2.0 Base | LibriSpeech-360h | LibriSpeech-100h | [fairseq](https://drive.google.com/file/d/16le9dRhGNKJAAW4JFjjPSbw26_EobZee/view?usp=share_link)  [huggingface](https://huggingface.co/vasista22/ccc-wav2vec2-360h-base-ft-100h) | 10.8 \| 27.7
 ccc-wav2vec 2.0 Base | LibriSpeech-960h | No fine-tuning | [fairseq](https://drive.google.com/file/d/1rs2eXck0cX1DJE3WoGnsPimMs0nYmQc-/view?usp=share_link)  [huggingface](https://huggingface.co/vasista22/ccc-wav2vec2-base) | ---
 ccc-wav2vec 2.0 Base | LibriSpeech-960h | LibriSpeech-100h | [fairseq](https://drive.google.com/file/d/18TOKavkfnbXkztnMTXbww6YXXAtkPVGc/view?usp=share_link)  [huggingface](https://huggingface.co/vasista22/ccc-wav2vec2-base-100h) | 5.5 \| 12.4
+ccc-wav2vec 2.0 Base SUPERB | LibriSpeech-960h | No fine-tuning | [fairseq SUPERB model](https://drive.google.com/file/d/1uWXFkWMIO6lpAAik8bFGmMd7FuuBXDFh/view?usp=share_link)  [huggingface SUPERB model](https://huggingface.co/vasista22/ccc-wav2vec2-base-SUPERB) | ---
 
 * Pre-training and fine-tuning procedures can be found [here](https://github.com/Speech-Lab-IITM/CCC-wav2vec-2.0/examples/wav2vec).
 
