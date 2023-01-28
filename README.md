@@ -35,7 +35,7 @@ ccc-wav2vec 2.0 Base | LibriSpeech-960h | No fine-tuning | [fairseq](https://dri
 ccc-wav2vec 2.0 Base | LibriSpeech-960h | LibriSpeech-100h | [fairseq](https://drive.google.com/file/d/18TOKavkfnbXkztnMTXbww6YXXAtkPVGc/view?usp=share_link) \| [huggingface](https://huggingface.co/vasista22/ccc-wav2vec2-base-100h) | 5.5 \| 12.4
 ccc-wav2vec 2.0 Base SUPERB | LibriSpeech-960h | No fine-tuning | [fairseq SUPERB model](https://drive.google.com/file/d/1uWXFkWMIO6lpAAik8bFGmMd7FuuBXDFh/view?usp=share_link) \| [huggingface SUPERB model](https://huggingface.co/vasista22/ccc-wav2vec2-base-SUPERB) | ---
 
-* Pre-training and fine-tuning procedures can be found [here](https://github.com/Speech-Lab-IITM/CCC-wav2vec-2.0/examples/wav2vec).
+* Pre-training and fine-tuning procedures can be found [here](https://github.com/Speech-Lab-IITM/CCC-wav2vec-2.0/tree/master/examples/wav2vec).
 
 ## Requirements and Installation
 
