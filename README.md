@@ -1,6 +1,6 @@
 # [ccc-wav2vec 2.0](https://arxiv.org/abs/2210.02592)
 
-Paper Title: CCC-wav2vec 2.0: Clustering aided Cross Contrastive Self-Supervised Learning of Speech Representations. To Appear at IEEE SLT 2022 ([arxiv link](https://arxiv.org/abs/2210.02592)).
+Paper Title: CCC-wav2vec 2.0: Clustering aided Cross Contrastive Self-Supervised Learning of Speech Representations. At IEEE SLT 2022 ([arxiv link](https://arxiv.org/abs/2210.02592)).
 
 ccc-wav2vec 2.0 is a pre-training mechanism which uses clustering and an augmentation-based cross-contrastive loss as its self-supervised objective. Through the clustering module, we scale down the influence of those negative examples that are highly similar to the positive. The Cross-Contrastive loss is computed between the encoder output of the original sample and the quantizer output of its augmentation and vice-versa, bringing robustness to the pre-training strategy.
 
@@ -27,13 +27,13 @@ The WERs specified are without the use of any language model.
 
 Model | Pre-training data | Fine-tuning data | Model Links | WER (test-clean \| test-other)
 |---|---|---|---|---
-wav2vec 2.0 Base | LibriSpeech-360h | No fine-tuning | [fairseq](https://drive.google.com/file/d/1Z4GGtDkaU4VCio2eyYVe40914tpjWI4V/view?usp=share_link) \| [huggingface](https://huggingface.co/vasista22/wav2vec2-360h-base) | ---
-wav2vec 2.0 Base | LibriSpeech-360h | LibriSpeech-100h | [fairseq](https://drive.google.com/file/d/1N5-sJCp6jO_0lkutbSwZx9HT1_M5Lg2b/view?usp=share_link) \| [huggingface](https://huggingface.co/vasista22/wav2vec2-360h-base-ft-100h) | 12.8 \| 31.7
-ccc-wav2vec 2.0 Base | LibriSpeech-360h | No fine-tuning | [fairseq](https://drive.google.com/file/d/1iUI75gBFmxz7QnXNnnEY-1_fAsi0noKs/view?usp=share_link) \| [huggingface](https://huggingface.co/vasista22/ccc-wav2vec2-360h-base) | ---
-ccc-wav2vec 2.0 Base | LibriSpeech-360h | LibriSpeech-100h | [fairseq](https://drive.google.com/file/d/16le9dRhGNKJAAW4JFjjPSbw26_EobZee/view?usp=share_link) \| [huggingface](https://huggingface.co/vasista22/ccc-wav2vec2-360h-base-ft-100h) | 10.8 \| 27.7
-ccc-wav2vec 2.0 Base | LibriSpeech-960h | No fine-tuning | [fairseq](https://drive.google.com/file/d/1rs2eXck0cX1DJE3WoGnsPimMs0nYmQc-/view?usp=share_link) \| [huggingface](https://huggingface.co/vasista22/ccc-wav2vec2-base) | ---
-ccc-wav2vec 2.0 Base | LibriSpeech-960h | LibriSpeech-100h | [fairseq](https://drive.google.com/file/d/18TOKavkfnbXkztnMTXbww6YXXAtkPVGc/view?usp=share_link) \| [huggingface](https://huggingface.co/vasista22/ccc-wav2vec2-base-100h) | 5.5 \| 12.4
-ccc-wav2vec 2.0 Base SUPERB | LibriSpeech-960h | No fine-tuning | [fairseq SUPERB model](https://drive.google.com/file/d/1uWXFkWMIO6lpAAik8bFGmMd7FuuBXDFh/view?usp=share_link) \| [huggingface SUPERB model](https://huggingface.co/vasista22/ccc-wav2vec2-base-SUPERB) | ---
+wav2vec 2.0 Base | LibriSpeech-360h | No fine-tuning | [fairseq](https://asr.iitm.ac.in/ssl_ckpts/ccc-wav2vec2.0/360h/wav2vec2_base_360h.pt) \| [huggingface](https://huggingface.co/vasista22/wav2vec2-360h-base) | ---
+wav2vec 2.0 Base | LibriSpeech-360h | LibriSpeech-100h | [fairseq](https://asr.iitm.ac.in/ssl_ckpts/ccc-wav2vec2.0/360h/wav2vec2_base_360h_100h.pt) \| [huggingface](https://huggingface.co/vasista22/wav2vec2-360h-base-ft-100h) | 12.8 \| 31.7
+ccc-wav2vec 2.0 Base | LibriSpeech-360h | No fine-tuning | [fairseq](https://asr.iitm.ac.in/ssl_ckpts/ccc-wav2vec2.0/360h/ccc_wav2vec2_base_360h.pt) \| [huggingface](https://huggingface.co/vasista22/ccc-wav2vec2-360h-base) | ---
+ccc-wav2vec 2.0 Base | LibriSpeech-360h | LibriSpeech-100h | [fairseq](https://asr.iitm.ac.in/ssl_ckpts/ccc-wav2vec2.0/360h/ccc_wav2vec2_base_360h_100h.pt) \| [huggingface](https://huggingface.co/vasista22/ccc-wav2vec2-360h-base-ft-100h) | 10.8 \| 27.7
+ccc-wav2vec 2.0 Base | LibriSpeech-960h | No fine-tuning | [fairseq](https://asr.iitm.ac.in/ssl_ckpts/ccc-wav2vec2.0/960h/ccc_wav2vec2_base_960h.pt) \| [huggingface](https://huggingface.co/vasista22/ccc-wav2vec2-base) | ---
+ccc-wav2vec 2.0 Base | LibriSpeech-960h | LibriSpeech-100h | [fairseq](https://asr.iitm.ac.in/ssl_ckpts/ccc-wav2vec2.0/960h/ccc_wav2vec2_base_960h_100h.pt) \| [huggingface](https://huggingface.co/vasista22/ccc-wav2vec2-base-100h) | 5.5 \| 12.4
+ccc-wav2vec 2.0 Base SUPERB | LibriSpeech-960h | No fine-tuning | [fairseq SUPERB model](https://asr.iitm.ac.in/ssl_ckpts/ccc-wav2vec2.0/960h/ccc_wav2vec2_base_960h_SUPERB.pt) \| [huggingface SUPERB model](https://huggingface.co/vasista22/ccc-wav2vec2-base-SUPERB) | ---
 
 * Pre-training and fine-tuning procedures can be found [here](https://github.com/Speech-Lab-IITM/CCC-wav2vec-2.0/tree/master/examples/wav2vec).
 
